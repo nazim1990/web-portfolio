@@ -39,8 +39,32 @@ section{
     color: white;
     font-family: 700;
     }
-    .dream-area{
-        background-image: url(images/dream-bg.png);
-        background-repeat: no-repeat;
-        background-position: right;
-    }
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.shadow-box{
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5x;
+    height: 80%;
+    background-color: white;
+}
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
