@@ -8,6 +8,12 @@ h1{
 .name-highlight{
     color: burlywood;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -23,4 +29,18 @@ h1{
 }
 section{
     height: 600px;
+   /* padding-bottom: 100px; */
 }
+.Linked-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, lightsalmon, tomato);
+    padding: 20px,40px;
+    border-radius: 20px;
+    color: white;
+    font-family: 700;
+    }
+    .dream-area{
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
